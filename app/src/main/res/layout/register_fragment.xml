@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#F1C40F"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registration"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/black"
+                android:textSize="50sp"
+                />
+
+            <EditText
+                android:id="@+id/usernameReg"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_of_edit"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:hint="Username"
+                android:paddingStart="20dp"
+                android:drawablePadding="10dp"
+                android:textSize="25sp"
+                android:textColorHint="#594949"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/nameReg"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_of_edit"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:hint="First name"
+                android:paddingStart="20dp"
+                android:drawablePadding="10dp"
+                android:textSize="25sp"
+                android:textColorHint="#594949"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/surnameReg"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_of_edit"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:hint="Last name"
+                android:paddingStart="20dp"
+                android:drawablePadding="10dp"
+                android:textSize="25sp"
+                android:textColorHint="#594949"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/ageNameReg"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_of_edit"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:hint="age"
+                android:paddingStart="20dp"
+                android:drawablePadding="10dp"
+                android:textSize="25sp"
+                android:textColorHint="#594949"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/postalReg"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_of_edit"
+                android:drawableStart="@drawable/ic_baseline_code_24"
+                android:hint="Postal code"
+                android:paddingStart="20dp"
+                android:drawablePadding="10dp"
+                android:inputType="number"
+                android:textSize="25sp"
+                android:textColorHint="#594949"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/edittext3"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_of_edit"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:hint="E-mail"
+                android:paddingStart="20dp"
+                android:textSize="25sp"
+                android:textColorHint="#594949"
+                android:textColor="@color/black"
+                android:inputType="textEmailAddress"
+                 />
+
+            <EditText
+                android:id="@+id/edittext4"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_of_edit"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="#594949"
+                android:textSize="25sp"
+                 />
+
+            <EditText
+
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_of_edit"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="#594949"
+                android:textSize="25sp"
+                 />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:text="next"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:textColor="#D4AC0D"
+                android:textSize="25sp"/>
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:layout_gravity="end"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

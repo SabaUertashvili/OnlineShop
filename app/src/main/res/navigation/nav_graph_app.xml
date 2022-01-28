@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_app"
+    app:startDestination="@id/fragment114">
+    <fragment
+        android:id="@+id/fragment114"
+        tools:layout="@layout/home_fragment"
+        android:name="fragmentsforapp.fragment1.Fragment11"
+        android:label="Fragment11" />
+
+    <fragment
+        android:id="@+id/fragment133"
+        tools:layout="@layout/profile_fragment"
+        android:name="fragmentsforapp.fragment1.Fragment13"
+        android:label="Fragment13" >
+
+        <argument
+            android:name="username"
+            app:argType="string"
+            android:defaultValue="username"
+            />
+    </fragment>
+
+
+
+
+
+    <fragment
+        android:id="@+id/fragmenteditprofilw"
+        tools:layout="@layout/editprofile_fragment"
+        android:name="fragmentsforapp.fragment1.Fragmenteditprofilw"
+        android:label="Fragmenteditprofilw" />
+    <fragment
+        android:id="@+id/fragmentforsettings"
+        tools:layout="@layout/settings_fragment"
+        android:name="fragmentsforapp.fragment1.Fragmentforsettings"
+        android:label="Fragmentforsettings" />
+    <fragment
+        android:id="@+id/fragmentForOpenProduct"
+        tools:layout="@layout/recycler_open_product"
+        android:name="fragmentsforapp.fragment1.FragmentForOpenProduct"
+        android:label="FragmentForOpenProduct" />
+
+
+</navigation>
